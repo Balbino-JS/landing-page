@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Oleo+Script:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    box-sizing: border-box; /*para ajudar na responsividade*/
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+body {
+   /* background-color: rgba(244, 19, 19, 0.87);*/
+}
+.btn-default {
+    align-items: center;
+    background-color: #ffcb45;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 0 10px 2px rgb(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    padding: 10px 14px;
+    
+}
+.btn-default:hover {
+    background-color: #f8d477;
+    transition: background-color .3s ease;
+}
+
