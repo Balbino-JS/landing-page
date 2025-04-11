@@ -9,8 +9,11 @@
     <link rel="stylesheet" href="src/style/header.css">
     <link rel="stylesheet" href="src/style/home.css">
     <link rel="stylesheet" href="src/style/menu.css">
+    <link rel="stylesheet" href="src/style/testimonials.css">
+    <link rel="stylesheet" href="src/style/footer.css">
     <!--fonte jquery-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <title>Revendedora de carras importado</title>
 </head>
 <body>
@@ -48,7 +51,7 @@
             <button class="btn-default">Peça aqui</button>
         </div>
     </header>
-
+    <!--AQUI SERÁ A HOME-->
     <main id="contant">
         <section id="home">
             <div class="shape"><img src="img/car-4.jpg " alt=""></div>
@@ -70,6 +73,7 @@
                 </div>
             </div>            
         </section>
+    <!--CRIAÇÃO DO MENU-->
         <section id="menu">
             <h2 class="section-title">Carros</h2>
             <h3 class="section-subtitle">Nossos carros</h3>
@@ -114,7 +118,7 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam molestiae hic, pariatur, dolorum atque quasi quod porro quaerat eum odit non dolore ea iste quas dolor voluptate, voluptatum ipsa nemo?</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum doloribus deleniti voluptatibus neque similique? Corrupti magnam error fuga architecto delectus obcaecati iste, iusto earum molestias illo voluptatibus saepe deleniti consectetur.</p>
                         <span>(500+)</span>
                     </div>
                     <div class="car-price">
@@ -171,7 +175,69 @@
         
             </div>               
         </section>
+    <!--ÁREA DE DEPOIMENTOS-->
+        <section id="testimonals">
+            <img src="img/person3.jpg" id="testimonal_car" alt="">
+
+            <div id="tetimonals_content">
+                <h2 class="section-title">Depoimento</h2>
+                    
+                <h3 class="section-subtitle">O que os clientes falam sobre nós!</h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="img/flavia.jpg" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Fla
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <P>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, architecto itaque. Iure et cum officiis culpa nisi corporis soluta molestiae veniam sed, nulla labore blanditiis eos perspiciatis neque expedita quidem."</P>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="img/person4.jpg" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Julios
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <P>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, architecto itaque. Iure et cum officiis culpa nisi corporis soluta molestiae veniam sed, nulla labore blanditiis eos perspiciatis neque expedita quidem."</P>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn-default">
+                    Ver mais avaliações
+                </button>
+            </div>
+        </section>
     </main>
+    <!--FOOTER-->
+    <footer>
+        <div id="footer_items"> 
+            <span class="copyright">&copy 2025 Juliano Balbino</span>
+            <div class="social-media-buttons">
+                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+    </footer>
     <script src="src/javascript/script.js"></script>
 </body>
 </html>
